@@ -16,7 +16,7 @@
   "main": "index.js",
   "scripts": {
     "run": "node src/index.js",
-    "run nr": "node -r newrelic src/index.js"
+    "nr": "node --env-file=.env -r newrelic src/index.js"
   },
   "dependencies": {
     "newrelic": "^14.7.0",
