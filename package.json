@@ -1,0 +1,28 @@
+{
+  "name": "nr",
+  "version": "1.0.0",
+  "description": "New Relic ",
+  "homepage": "https://github.com/nxxr-07/nr#readme",
+  "bugs": {
+    "url": "https://github.com/nxxr-07/nr/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxxr-07/nr.git"
+  },
+  "license": "ISC",
+  "author": "arshnxxr-07",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "run": "node src/index.js",
+    "run nr": "node -r newrelic src/index.js"
+  },
+  "dependencies": {
+    "newrelic": "^14.7.0",
+    "pino": "^10.4.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.2.0"
+  }
+}

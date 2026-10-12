@@ -1,0 +1,28 @@
+
+[
+    {
+        "userId": 1, 
+        "message": "User logged in"
+    },
+    {
+        "userId": 2, 
+        "message": "User logged out"
+    },
+    {
+        "userId": 3, 
+        "message": "Account Deleted"
+    },
+    {
+        "userId": 4, 
+        "message": "Password Reset"
+    },
+    {
+        "userId": 5, 
+        "message": "Account Merged"
+    },
+    {
+        "userId": 6, 
+        "message": "Jackpot Won"
+    }
+    
+]
